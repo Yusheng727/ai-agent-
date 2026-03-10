@@ -8,6 +8,12 @@ spring:
     username: ${MYSQL_USERNAME:root}
     password: ${MYSQL_PASSWORD:}
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+    pgvector:
+      url: ${PG_URL:jdbc:postgresql://pgm-bp109o1f2pb4f79qmo.rwlb.rds.aliyuncs.com:5432/sheng_ai_agent}
+      username: ${PG_USERNAME:my_user01}
+      password: ${PG_PASSWORD:}
+      driver-class-name: org.postgresql.Driver
   ai:
     chat:
       memory:
