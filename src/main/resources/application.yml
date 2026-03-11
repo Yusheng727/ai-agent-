@@ -47,3 +47,6 @@ ai:
     forbidden-words:
       - 违禁词
       - 敏感词
+
+searchapi:
+  api-key: ${SEARCHAPI_API_KEY:}
